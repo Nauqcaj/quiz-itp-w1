@@ -22,4 +22,7 @@ def matrix_sum(a_matrix):
     matrix_sum(m2)  # 198
     """
     # Write your code here
-    pass
+    total = 0
+    for row in a_matrix:
+        total += sum(row)
+    return total      
