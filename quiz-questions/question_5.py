@@ -30,10 +30,11 @@ def calculate_tax(income):
     """
     # Write your code here
     if income <= 50000:
-        return income * 0.15
+        income *= 0.15
     elif income <= 75000:
-        return income * 0.25
+        income *= 0.25
     elif income <= 100000:
-        return income * .30
+        income *= .30
     else:
-        return income * .35
+        income *= .35
+    return income
