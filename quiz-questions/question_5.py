@@ -31,10 +31,10 @@ def calculate_tax(income):
     # Write your code here
     income = int(input()
     while income <= 50000:
-                 return income * 0.15
-        elif income <= 75000:
-                 return income * 0.25
-        elif income <= 100000:
-                 return income * .30
-        else:
-                 return income * .35
+        return income * 0.15
+    elif income <= 75000:
+        return income * 0.25
+    elif income <= 100000:
+        return income * .30
+    else:
+        return income * .35
