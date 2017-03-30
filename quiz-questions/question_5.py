@@ -29,7 +29,6 @@ def calculate_tax(income):
     calculate_tax(income)  # $210,000 * 0.35 = 73500 = $73,500
     """
     # Write your code here
-    income = int(input()
     while income <= 50000:
         return income * 0.15
     elif income <= 75000:
