@@ -17,6 +17,6 @@ def remove_Es(a_string):
     for char in a_string:
         if 'e' != char and 'E' != char:
             newString += char
-        return newString
+    return newString
         
     
